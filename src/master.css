@@ -1,0 +1,83 @@
+:root {
+  --rice: #f6f8ed;
+  --fish: salmon;
+  --nori: #112a12;
+  --perc: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--fish);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--nori);
+}
+
+body {
+  background-color: var(--rice);
+  color: var(--nori);
+}
+
+.site-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.load-wrapper {
+  display:inline-block;
+  position: absolute;
+  left: 10vw;
+  right: 10vw;
+  height: 80px;
+}
+
+.load-wrapper:hover {
+  left: 9.5vw;
+  right: 9.5vw;
+  height: 85px;
+  cursor: pointer;
+}
+
+.load-border {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 6px solid var(--nori);
+}
+
+.loader {
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  background-color: var(--fish);
+  height: 108%;
+  width: calc(var(--perc)*1%);
+}
+
+.button {
+  display: inline-block;
+  position: absolute;
+  top: 69%;
+  background-color: var(--rice);
+  border: none;
+  text-align: center;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+  filter:brightness(105%)
+}
