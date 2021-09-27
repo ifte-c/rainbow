@@ -1,0 +1,26 @@
+{
+  "name": "Ifte's WebApp",
+  "short_name": "IWA",
+  "start_url": ".",
+  "background_color": "#f6f8ed",
+  "theme_color": "#fa8072",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "images/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "270x270",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
