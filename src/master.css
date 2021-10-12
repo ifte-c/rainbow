@@ -47,6 +47,10 @@ body {
   cursor: pointer;
 }
 
+.load-wrapper:focus{
+outline: none;
+}
+
 .load-border {
   display: inline-block;
   position: absolute;
