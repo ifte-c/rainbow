@@ -1,3 +1,11 @@
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 :root {
   --rice: #f6f8ed;
   --fish: salmon;
@@ -45,10 +53,6 @@ body {
   right: 9.5vw;
   height: 85px;
   cursor: pointer;
-}
-
-.load-wrapper:focus{
-outline: none;
 }
 
 .load-border {
