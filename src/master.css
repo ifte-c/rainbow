@@ -67,21 +67,3 @@ body {
   width: calc(var(--perc)*1%);
   -webkit-tap-highlight-color: transparent;
 }
-
-.button {
-  display: inline-block;
-  position: absolute;
-  top: 69%;
-  background-color: var(--rice);
-  border: none;
-  text-align: center;
-  font-size: 30px;
-  width: 300px;
-  height: 100px;
-  cursor: pointer;
-}
-
-.button:hover {
-  opacity: 0.9;
-  filter:brightness(105%)
-}
